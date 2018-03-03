@@ -1,0 +1,16 @@
+[
+{"namespace": "io.confluent.examples.streams.avro.microservices",
+ "type": "record",
+ "name": "Entry",
+ "fields": [
+     {"name": "id", "type": "string"},
+     {"name": "amount", "type": "long"},
+     {"name": "type", "type": "string"},
+     {"name": "paymentForm", "type": "string"},
+     {"name": "status", "type": "string"},
+     {"name": "floating", "type": "int"},
+     {"name": "eventId", "type": "string"},
+     {"name": "moipAccount", "type": "string"}
+ ]
+}
+]
